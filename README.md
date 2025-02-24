@@ -1,90 +1,97 @@
-# High-Cloud-Airlines (Data Insights & Analysis Using Excel, SQL and Power BI)
-Welcome to High Cloud Airlines, a data-driven project that provides deep insights into airline operations, performance metrics, and passenger trends. This repository includes datasets, visualizations, and analytical reports to uncover key patterns in the aviation industry.
 
-## 🚀 Features
-✅ Data Processing – Cleaned and structured datasets for analysis
+# High-Cloud-Airlines (Data Insights & Analysis Using Excel, SQL, and Power BI)
 
-✅ Visualization Dashboards – Interactive charts built with Power BI/Tableau
+Welcome to **High Cloud Airlines**, a data-driven project focused on uncovering deep insights into airline operations, performance metrics, and passenger trends. This repository includes datasets, visualizations, and analytical reports to highlight key patterns in the aviation industry.
 
-✅ SQL Queries – Optimized queries for extracting meaningful insights
+## 🚀 Features  
 
-✅ Python Scripts – Data manipulation and trend analysis
+✅ **Data Processing** – Cleaned and structured datasets for in-depth analysis.  
 
-## 🎯 Project Objective: High Cloud Airlines Data Analysis
-The objective of this project is to analyze airline operational data to uncover key insights that can enhance decision-making, improve efficiency, and optimize customer experience. By leveraging data analytics, SQL queries, and visualization tools, this project aims to:
+✅ **Visualization Dashboards** – Interactive charts built using Power BI/Tableau.  
 
-✅ Evaluate Airline Performance – Identify trends in flight delays, cancellations, and on-time performance.
+✅ **SQL Queries** – Optimized queries to extract meaningful insights.  
 
-✅ Analyze Passenger Trends – Understand booking patterns, seat occupancy rates, and customer preferences.
+✅ **Python Scripts** – Data manipulation and trend analysis for advanced reporting.  
 
-✅ Optimize Route Efficiency – Determine the most profitable and frequently traveled routes.
+## 🎯 Project Objective: High Cloud Airlines Data Analysis  
 
-✅ Enhance Customer Satisfaction – Identify service gaps and areas for improvement based on data-driven insights.
+This project aims to analyze airline operational data to derive actionable insights that enhance decision-making, improve efficiency, and optimize the customer experience. By leveraging data analytics, SQL queries, and visualization tools, we aim to:  
 
-✅ Forecast Demand – Utilize predictive analytics to anticipate peak travel seasons and operational bottlenecks.
+✅ **Evaluate Airline Performance** – Analyze trends in flight delays, cancellations, and on-time performance.  
 
-This project serves as a valuable resource for airline companies, analysts, and aviation enthusiasts looking to explore data-driven solutions in the aviation industry.
+✅ **Analyze Passenger Trends** – Examine booking patterns, seat occupancy rates, and customer preferences.  
 
-## Dataset Used
-- <a href="https://github.com/abhinavm0010/-High-Cloud-Airlines---Data-Insights-Analysis-/blob/main/Questinaires%20high%20%20Clouds%20(1).xlsx">Dataset for High Cloud Airlines </a>
+✅ **Optimize Route Efficiency** – Identify the most profitable and frequently traveled routes.  
 
-## Questions (KPIs)
-- Calcuate the following fields from the Year	Month (#)	Day  fields ( First Create a Date Field from Year , Month , Day fields)
-   A.Year
-   B.Monthno
-   C.Monthfullname
-   D.Quarter(Q1,Q2,Q3,Q4)
-   E. YearMonth ( YYYY-MMM)
-   F. Weekdayno
-   G.Weekdayname
-   H.FinancialMOnth
-   I. Financial Quarter 
-- Find the load Factor percentage on a yearly , Quarterly , Monthly basis ( Transported passengers / Available seats)
-- Find the load Factor percentage on a Carrier Name basis ( Transported passengers / Available seats)
-- Identify Top 10 Carrier Names based passengers preference 
-- Display top Routes ( from-to City) based on Number of Flights 
-- Identify the how much load factor is occupied on Weekend vs Weekdays.
-- Use the filter to provide a search capability to find the flights between Source Country, Source State, Source City to Destination Country , Destination State, Destination City 
-- Identify number of flights based on Distance groups
-- Build a Dashboard to support your Analysis
+✅ **Enhance Customer Satisfaction** – Detect service gaps and improvement areas using data-driven insights.  
 
-- Dashboard Interaction <a href="https://github.com/abhinavm0010/-High-Cloud-Airlines---Data-Insights-Analysis-/blob/main/Screenshot%202025-02-03%20211240.png">View Excel Dashboard</a>
-- Dashboard Interaction <a href="https://github.com/abhinavm0010/-High-Cloud-Airlines---Data-Insights-Analysis-/blob/main/Screenshot%202025-02-03%20211714.png">View Power BI Dashboard 1</a>
-- Dashboard Interaction <a href="https://github.com/abhinavm0010/-High-Cloud-Airlines---Data-Insights-Analysis-/blob/main/Screenshot%202025-02-03%20211744.png">View Power BI Dashboard 2</a>
+✅ **Forecast Demand** – Utilize predictive analytics to anticipate peak travel seasons and operational bottlenecks.  
 
-## 📌 Project Process: High Cloud Airlines Data Analysis
+This project serves as a valuable resource for airline companies, analysts, and aviation enthusiasts looking to explore data-driven solutions in the aviation industry.  
 
-- Data Collection & Understanding
-📥 Import Data – Extract raw datasets related to airline operations, including flight schedules, passenger details, delays, and cancellations.
-📊 Explore Data – Perform an initial review of dataset structure, column names, and data types to understand key attributes.
+## 📂 Dataset Used  
 
-- Data Cleaning & Preprocessing
-🛠 Handle Missing Values – Identify and impute or remove missing data for accuracy.
-🔄 Data Formatting – Convert date formats, standardize categorical variables, and ensure consistency.
-🧹 Remove Duplicates & Outliers – Detect and filter out anomalies affecting analysis.
+- [Dataset for High Cloud Airlines] https://github.com/nehasatpute/-Data-Driven-Aviation-High-Cloud-Airline-/blob/main/Questinaires%20high%20%20Clouds%20(1).xlsx
 
-- Exploratory Data Analysis (EDA)
-📌 Statistical Summaries – Use descriptive statistics to understand distributions and patterns.
-📈 Data Visualization – Generate bar charts, histograms, and scatter plots using Power BI.
-📊 Correlation Analysis – Identify relationships between variables such as delays and weather conditions.
+## 📊 Key Questions & KPIs  
 
-- Data Processing & Querying (SQL)
-🛠 SQL Queries – Write optimized SQL queries to filter, aggregate, and extract insights.
-📊 Python for Analysis – Use Pandas & NumPy for data manipulation, and Matplotlib/Seaborn for visualization.
-📌 Feature Engineering – Create new meaningful metrics for better insight generation.
+- **Date Calculations:** Derive additional fields from `Year`, `Month (#)`, and `Day` columns:  
+  - **A.** Year  
+  - **B.** Month Number  
+  - **C.** Month Name  
+  - **D.** Quarter (Q1, Q2, Q3, Q4)  
+  - **E.** Year-Month (`YYYY-MMM`)  
+  - **F.** Weekday Number  
+  - **G.** Weekday Name  
+  - **H.** Financial Month  
+  - **I.** Financial Quarter  
 
-- Insights & Reporting
-📢 Dashboard Creation – Build interactive reports using Power BI.
-📌 Business Insights – Summarize key takeaways, trends, and recommendations.
-📊 Forecasting & Predictive Modeling – Apply basic ML techniques (if applicable) to predict demand trends.
+- **Load Factor Analysis:**  
+  - Calculate load factor percentage on a **yearly, quarterly, and monthly basis** (Transported passengers / Available seats).  
+  - Find load factor percentage by **Carrier Name** (Transported passengers / Available seats).  
 
-- Final Documentation & Deployment
-📑 Documentation – Prepare a detailed report outlining methodologies, insights, and recommendations.
-🚀 GitHub Repository Update – Upload scripts, visualizations, and reports for easy access.
+- **Passenger & Flight Analysis:**  
+  - Identify the **Top 10 Carrier Names** based on passenger preference.  
+  - Display **top routes** (From-To City) based on the number of flights.  
+  - Compare **load factor on weekends vs weekdays**.  
+  - Implement a **search filter** to find flights based on Source Country, State, City, and Destination Country, State, City.  
+  - Categorize **flights based on distance groups**.  
 
-## Dashboards
+- **Dashboard Creation:**  
+  - Develop **interactive dashboards** to support data analysis.  
 
-![Screenshot 2025-02-03 211240](https://github.com/user-attachments/assets/193edaa8-abda-44de-af45-101a5df2bbc0)
-![Screenshot 2025-02-03 211714](https://github.com/user-attachments/assets/78cb7407-5106-4273-b3a8-55bf2d60f9e7)
-![Screenshot 2025-02-03 211744](https://github.com/user-attachments/assets/58aefd28-a10e-40f5-a26d-e8df24c1b070)
+## 📊 Dashboards  
 
+- [Excel Dashboard](https://github.com/nehasatpute/-Data-Driven-Aviation-High-Cloud-Airline-/blob/main/Screenshot%201.png)  
+- [Power BI Dashboard 1](https://github.com/nehasatpute/-Data-Driven-Aviation-High-Cloud-Airline-/blob/main/SS%202.png)  
+- [Power BI Dashboard 2](https://github.com/nehasatpute/-Data-Driven-Aviation-High-Cloud-Airline-/blob/main/SS%203.png)  
+
+## 📌 Project Workflow: High Cloud Airlines Data Analysis  
+
+### 1️⃣ Data Collection & Understanding  
+📥 **Import Data** – Extract datasets related to flight schedules, passenger details, delays, and cancellations.  
+📊 **Explore Data** – Review dataset structure, column names, and data types to understand key attributes.  
+
+### 2️⃣ Data Cleaning & Preprocessing  
+🛠 **Handle Missing Values** – Identify and impute or remove missing data.  
+🔄 **Data Formatting** – Convert date formats, standardize categorical variables, and ensure consistency.  
+🧹 **Remove Duplicates & Outliers** – Detect and filter anomalies affecting analysis.  
+
+### 3️⃣ Exploratory Data Analysis (EDA)  
+📌 **Statistical Summaries** – Use descriptive statistics to explore distributions and patterns.  
+📈 **Data Visualization** – Generate bar charts, histograms, and scatter plots in Power BI/Tableau.  
+📊 **Correlation Analysis** – Identify relationships between variables like delays and weather conditions.  
+
+### 4️⃣ Data Processing & Querying (SQL & Python)  
+🛠 **SQL Queries** – Optimize queries for filtering, aggregating, and extracting insights.  
+📊 **Python for Analysis** – Utilize Pandas & NumPy for data manipulation and Matplotlib/Seaborn for visualization.  
+📌 **Feature Engineering** – Develop new meaningful metrics for better insight generation.  
+
+### 5️⃣ Insights & Reporting  
+📢 **Dashboard Creation** – Build interactive reports using Power BI/Tableau.  
+📌 **Business Insights** – Summarize key findings, trends, and recommendations.  
+📊 **Forecasting & Predictive Modeling** – Apply basic machine learning techniques (if applicable) to predict demand trends.  
+
+### 6️⃣ Final Documentation & Deployment  
+📑 **Documentation** – Create a comprehensive report outlining methodologies, insights, and recommendations.  
+🚀 **GitHub Repository Update** – Upload scripts, visualizations, and reports for easy access.  
