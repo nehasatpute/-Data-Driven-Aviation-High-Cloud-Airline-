@@ -95,3 +95,14 @@ This project serves as a valuable resource for airline companies, analysts, and 
 ### 6️⃣ Final Documentation & Deployment  
 📑 **Documentation** – Create a comprehensive report outlining methodologies, insights, and recommendations.  
 🚀 **GitHub Repository Update** – Upload scripts, visualizations, and reports for easy access.  
+   Here’s your slightly modified GitHub README with improved clarity and consistency:  
+
+
+## 📸 Dashboard Previews  
+
+![Excel Dashboard](https://github.com/user-attachments/assets/193edaa8-abda-44de-af45-101a5df2bbc0)  
+![Power BI Dashboard 1](https://github.com/user-attachments/assets/78cb7407-5106-4273-b3a8-55bf2d60f9e7)  
+![Power BI Dashboard 2](https://github.com/user-attachments/assets/58aefd28-a10e-40f5-a26d-e8df24c1b070)  
+
+
+
